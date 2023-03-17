@@ -1,0 +1,67 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.form {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.form__btn {
+	height: 40px;
+	padding: 10px 20px;
+	background-color: #3ea6ff;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.form__btn:disabled {
+	opacity: 0.5;
+}
+
+.form__input {
+	font-size: 24px;
+	width: 200px;
+	height: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.repositories-list {
+	font-size: 20px;
+}
+
+.repostories-list__item {
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.repostories-list__item span {
+	padding: 1px 5px;
+	font-size: 16px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.title {
+	margin-bottom: 15px;
+}
+
+.error-text {
+	color: red;
+}
+
+.error .form__input {
+	border-color: red;
+}
